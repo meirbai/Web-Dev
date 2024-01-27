@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        #fun{
+            color:red;
+            font-style: italic;
+        }
+        #meow{
+            color:purple;
+            font-weight:bold;
+        }
+        .grp{
+            background-color:aqua;
+            
+        }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1>You're<span id = "fun"> invited!</span></h1>
+        <h2>To party</h2>
+        <h3>idk what to write here</h3>
+        <p>The details:</p>
+        <div class = "grp"><ul>
+            <li>dont be <span id = "meow">late</span></li>
+            <li>dont forget your laptop
+            <li>be fun
+        </ul>
+        </div>
+        
+    </body>
+</html>
