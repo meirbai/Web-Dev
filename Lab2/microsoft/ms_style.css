@@ -1,0 +1,177 @@
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a{
+    color: inherit;
+}
+
+h3{
+    font-size: 19px;
+    font-weight: 650;
+}
+
+.article{
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+}
+
+
+ul {
+    list-style: none;
+    margin-left: 11px;
+}
+
+li{
+    float: left;
+    font-size: 13px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.lgnNso{
+    width: 1111px;
+    height: 23px;
+    margin-top: 0px;
+    float: right;
+    direction: rtl;
+    margin-top: 14px;
+}
+
+.login{
+    width: 32px;
+    font-size: 22px;
+    margin-top: -7px;
+    margin-left: -11px;
+}
+
+.symbols{
+    vertical-align:top;
+    font-family: "MWF MDL2 Assets";
+}
+
+.vhod{
+
+}
+
+.lgnNso li{
+    float: right;
+}
+
+
+.header{
+    position: absolute;
+    left: 74px;
+    width: 1339.54px;
+    height: 60px;
+}
+
+.mstsf{
+    position: absolute;
+    width: 1111px;
+    height: 23px;
+    top:12px;
+    left: 80px;
+    margin-top: 0px;
+}
+
+.abs{
+    position: absolute;
+}
+
+.logo{
+    width: 108px;
+    height: 23px;
+    margin-top: -3px;
+    top:9px;
+    left: 12px;
+}
+
+.text{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.bigtxt{
+    left: 80px;
+    top:135px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.blbox{
+    height: 38px;
+    width: 160px;
+    background-color: black;
+    border-width: 0px;
+    left: 80px;
+    top: 297px;
+}
+
+.wtbox{
+    height: 38px;
+    width: 160px;
+    left: 275px;
+    top: 297px;
+}
+
+.sixp{
+    color: white;
+    text-align: center;
+    margin-top: 8.5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.onep{
+    color: black;
+    text-align: center;
+    margin-top: 8.5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.maincapt{
+    font-size: 15px;
+    font-weight: 400;
+    left:80px;
+    top:200px;
+    line-height: 20px
+}
+
+.main{
+    width: 1339.54px;
+    background-size: 1339.54px 500.918px;
+    height: 500.918px;
+    left: 74px;
+    top:58px;
+    background-image: url("mainblock.png");
+}
+
+.underbl{
+    display: flex;
+    width: 1339.54px;
+    height: 400.918px;
+    left: 74px;
+    top:607px;
+}
+
+.lock{
+    width: 313px;
+    margin-bottom: 6px;
+}
+
+.blocks{
+    margin-right:25px;
+    width: 313px;
+    height: 338px;
+}
