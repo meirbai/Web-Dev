@@ -1,0 +1,46 @@
+ <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kaspi kz</title>
+  </head>
+  <body>
+    <div class = "header">
+      <img src="https://kaspi.kz/shop/images/ks-logo.static.svg" class = "logo">
+    </div>
+  <div class="main">
+    <div *ngFor="let i of prods" class = "outbox">
+      <div class = "itemBox">
+        <div class = "insideBox">
+          <div class="img">
+            <img src="{{i.image}}" class="imgs">
+          </div>
+          <div class="desc">
+            <div class="space"></div>
+            <div class = "textbox">
+              <a href="{{i.link}}">{{i.name}}</a>
+            </div>
+            <div class="ratNstar">
+              <img src="https://pngimg.com/d/red_star_PNG33.png" class="strr">
+              <span class="ratNum">{{i.rating}}</span>
+            </div>
+            <div class="pricebox">
+                   <div class="prc_text">Цена</div>
+                  <span class="prc_real">{{ i.price }} ₸</span>
+            </div>
+            <div class="more">
+            <dialog #dialog>
+              <p>{{i.description}}</p>
+              <button #closeButton>Close</button>
+            </dialog>
+            <button #showButton class = "bbtn">Описание</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </body>
+ </html>
