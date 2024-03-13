@@ -1,0 +1,70 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  text-align: center;
+
+
+}
+
+li {
+  display: inline;
+}
+a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background-color: #555;
+}
+
+.album-details {
+  background-color: #ffe6ff; /* Light pink background */
+  border: 2px solid #ffccff; /* Pink border */
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+fieldset {
+  margin-top: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ffccff; /* Pink border */
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #ffccff; /* Pink background */
+  color: #660066; /* Dark purple text */
+  border: 1px solid #660066; /* Dark purple border */
+  border-radius: 5px;
+}
+
+.loading-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #888;
+}
+a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: #555;
+}
+

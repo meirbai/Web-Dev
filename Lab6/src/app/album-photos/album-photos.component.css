@@ -1,0 +1,65 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  text-align: center;
+
+
+}
+
+li {
+  display: inline;
+}
+a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background-color: #555;
+}
+
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo-item {
+  width: 200px;
+  text-align: center;
+  background-color: #ffe6ff; /* Light pink background */
+  border: 2px solid #ffccff; /* Pink border */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a lift effect */
+}
+
+.photo-img-container {
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.photo-details {
+  margin-top: 10px;
+}
+
+h3, h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #660066; /* Dark purple text */
+}
+

@@ -1,0 +1,69 @@
+.albums__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: gray 1px solid;
+  padding-left:60px;
+  padding-right:60px;
+
+}
+fieldset {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ffccff; /* Pink border */
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #ffccff; /* Pink background */
+  color: #660066; /* Dark purple text */
+  border: 1px solid #660066; /* Dark purple border */
+  border-radius: 5px;
+}
+
+.albums-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.albums__container {
+  border: 2px solid #ffccff; /* Pink border */
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ffe6ff; /* Light pink background */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.albums__container__id {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #660066; /* Dark purple text */
+}
+
+.albums__container__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #330033; /* Darker purple text */
+}
+
+.delete-button {
+  background-color: #ff6659; /* Red background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.loading-message {
+  font-size: 16px;
+  color: #888;
+}

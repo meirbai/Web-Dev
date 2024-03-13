@@ -1,0 +1,31 @@
+<div class="navigation">
+  <ul>
+    <li>
+      <a [routerLink]="['/albums']">Albums</a>
+    </li>
+  </ul>
+</div>
+
+<div *ngIf="loaded" class="album-details">
+  <h2><strong>ID of Album:</strong> {{ album.id }}</h2>
+  <h1><strong>Title of Album:</strong> {{ album.title }}</h1>
+  <h5><strong>User ID:</strong> {{ album.userId }}</h5>
+</div>
+
+<fieldset>
+  <input type="text" [(ngModel)]="newAlbum.title" placeholder="Enter new title">
+  <input type="number" [(ngModel)]="newAlbum.userId" placeholder="Enter new user ID">
+  <button (click)="changeAlbum()">Change</button>
+</fieldset>
+
+<div *ngIf="!loaded" class="loading-message">
+  <h1>Loading...</h1>
+</div>
+
+<div class="navigation">
+  <ul>
+    <li>
+      <a [routerLink]="['/albums', album.id, 'photos']">Photos</a>
+    </li>
+  </ul>
+</div>

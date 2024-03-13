@@ -1,0 +1,16 @@
+<ul class="navigation">
+  <li>
+    <a [routerLink]="['/albums', albumid]">Return back</a>
+  </li>
+</ul>
+<div class="photo-container">
+  <div *ngFor="let photo of photos" class="photo-item">
+    <div class="photo-img-container">
+      <img [src]="photo.thumbnailUrl" alt="{{ photo.title }}">
+    </div>
+    <div class="photo-details">
+      <h3>{{ photo.id }}</h3>
+      <h4>{{ photo.title }}</h4>
+    </div>
+  </div>
+</div>
